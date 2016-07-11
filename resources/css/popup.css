@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23.03.2016, 16:15:21
+    Author     : U284265
+*/
+
+#err .bg1 {
+display:block;
+opacity: 0.6;
+width: 100%;
+height: 130%;
+background:black;
+position:absolute; top:-52px; left:-5px;
+margin: 5px;
+z-index:10;
+}
+#err .bg1 {filter: alpha(opacity=60);}
+
+#err .user_list{
+display:block;
+background:#ffffff;
+width: 250px;
+border: 2px solid #dc143c;
+position:absolute; top:200px; left:500px;
+padding-top:15px;
+opacity: 0.99;
+z-index:11;
+}
+#err .user_list{filter: alpha(opacity=100);}
+
+#err .resubmission{
+display:inline-block;
+background:#ffffff;
+/*width: 250px;*/
+border: 2px solid #dc143c;
+position:absolute; top:200px; left:45%;
+padding:15px;
+opacity: 0.99;
+z-index:11;
+}
+#err .resubmission{filter: alpha(opacity=100);}

@@ -1,0 +1,180 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20.04.2016, 11:20:58
+    Author     : U284265
+*/
+
+/* Table User Info Text*/
+#table_info  {
+font:normal 12px arial, sans-serif;
+border: 1px solid black;
+padding:3px;
+width:600px;
+background:#f5deb3;
+}
+#table_info th{
+height:20px;
+border: 1px solid black;
+text-align: center;
+background:#4682b4;
+}
+
+#table_info td{
+height:20px;
+border: 1px solid black;
+text-align: center;
+background:#d3d3d3;
+}
+
+#table_info .td_info{width:350px;}
+#table_info .td_name{width:170px;}
+#table_info .td_date{width:65px;}
+#table_info .td_time{width:50px;}
+
+
+/* Table User Change*/
+#table_change  {
+position:relative;
+font:normal 12px arial, sans-serif;
+border: 1px solid black;
+padding:3px;
+width:600px;
+background:#f5deb3;
+}
+#table_change th{
+height:20px;
+border: 1px solid black;
+text-align: center;
+background:#4682b4;
+}
+
+#table_change td{
+height:20px;
+border: 1px solid black;
+text-align: center;
+background:#d3d3d3;
+}
+
+#table_change .td_info{width:350px;}
+#table_change .td_name{width:170px;}
+#table_change .td_date{width:65px;}
+#table_change .td_time{width:50px;}
+
+/*Info Popup*/
+.a_span:hover .span_info {
+    display: block;
+    position: absolute;
+    top:52px;
+    left:50px;
+    z-index: 1;
+    color: black;
+    background: #ffffff;
+    border: 0px solid black;
+    text-decoration: none;
+    padding: 0px;
+}
+.a_span .span_info {
+    display: none;
+}
+/* Table Chang Infos*/
+#change_info  {
+font:normal 12px arial, sans-serif;
+border: 1px solid black;
+padding:3px;
+width:600px;
+background:#f5deb3;
+}
+#change_info th{
+height:20px;
+border: 1px solid black;
+text-align: center;
+background:#4682b4;
+}
+
+#change_info td{
+height:20px;
+border: 1px solid black;
+text-align: center;
+background:#d3d3d3;
+}
+
+#change_info .td_old{width:170px;}
+#change_info .td_new{width:170px;}
+
+
+
+
+/* Table System Info */
+#table_system  {
+font:normal 12px arial, sans-serif;
+border: 1px solid black;
+padding:3px;
+width:600px;
+background:#f5deb3;
+}
+#table_system th{
+height:20px;
+border: 1px solid black;
+text-align: center;
+background:#4682b4;
+}
+
+#table_system td{
+height:20px;
+border: 1px solid black;
+text-align: center;
+background:#d3d3d3;
+}
+
+#table_system .td_info{width:350px;}
+#table_system .td_name{width:170px;}
+#table_system .td_date{width:65px;}
+#table_system .td_time{width:50px;}
+
+
+.datainfo table { 
+    border-collapse: collapse; 
+    text-align: left; 
+    width: 100%; 
+} 
+.datainfo {
+    font: normal 12px/150% Arial, Helvetica, sans-serif; 
+    background: #fff; 
+    overflow: hidden; 
+    border: 1px solid #36752D; 
+    -webkit-border-radius: 6px; 
+    -moz-border-radius: 6px; 
+    border-radius: 6px; 
+}
+.datainfo table td, .datainfo table th { 
+    padding: 1px 10px; 
+}
+.datainfo table thead th {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #46BD02), color-stop(1, #275420) );
+    background:-moz-linear-gradient( center top, #46BD02 5%, #275420 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#46BD02', endColorstr='#275420');
+    background-color:#46BD02; 
+    color:#FFFFFF; 
+    font-size: 15px; 
+    font-weight: bold; 
+    border-left: 1px solid #36752D; 
+} 
+.datainfo table thead th:first-child { border: none; }
+.datainfo table tbody td { 
+    color: #275420; 
+    border-left: 1px solid #C6FFC2;
+    font-size: 12px;
+    font-weight: normal; 
+}
+.datainfo table tbody .alt td { 
+    background: #DFFFDE; 
+    color: #275420; 
+}
+.datainfo table tbody td:first-child { border-left: none; }
+.datainfo table tbody tr:last-child td { border-bottom: none; }
+
+.datainfo .td_info{width:350px;}

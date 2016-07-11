@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28.04.2016, 11:20:07
+    Author     : U284265
+*/
+
+
+
+.project_start table { 
+    border-collapse: collapse;
+    text-align: left; 
+    width: 100%; 
+} 
+.project_start {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff; 
+    overflow: hidden; 
+    max-width: 920px;
+    border: 1px solid #006699; 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+}
+.project_start table td, .project_start table th {padding: 6px 4px; }
+.project_start table thead th {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0A2D4F), color-stop(1, #238EEB) );
+    background:-moz-linear-gradient( center top, #0A2D4F 5%, #238EEB 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0A2D4F', endColorstr='#238EEB');
+    background-color:#0A2D4F; 
+    color:#FFFFFF; 
+    font-size: 15px; 
+    font-weight: bold; 
+    border-left: 1px solid #BDBDBD; 
+} 
+.project_start table thead th:first-child { border: none; }
+.project_start table tbody td { 
+    color: #000000;
+    border-left: 1px solid #BDBDBD;
+    font-size: 15px;
+    font-weight: normal;
+    height: 40px;
+}
+.project_start table tbody .alt td { 
+    background: #EDEDED;
+    color: #000000; 
+}
+.project_start table tbody td:first-child {border-left: none; }
+.project_start table tbody tr:last-child td { border-bottom: none; }
+
+
+.project_start td.count{text-align: center;}
+.project_start td.company{text-align: left;}
+.project_start td.city{text-align: left;}
+.project_start td.contact{text-align: left;}
+.project_start td.country{text-align: center;}
+.project_start td.status{text-align: center;}
+.project_start td.calls{text-align: center;}
+.project_start td.aktion{text-align: center;}
+
+.project_start .btn{
+   background: #003c8f;
+  background-image: -webkit-linear-gradient(top, #003c8f, #1497fc);
+  background-image: -moz-linear-gradient(top, #003c8f, #1497fc);
+  background-image: -ms-linear-gradient(top, #003c8f, #1497fc);
+  background-image: -o-linear-gradient(top, #003c8f, #1497fc);
+  background-image: linear-gradient(to bottom, #003c8f, #1497fc);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+}
+
+.project_start .btn:hover {
+   background: #007000;
+  background-image: -webkit-linear-gradient(top, #007000, #00ff3c);
+  background-image: -moz-linear-gradient(top, #007000, #00ff3c);
+  background-image: -ms-linear-gradient(top, #007000, #00ff3c);
+  background-image: -o-linear-gradient(top, #007000, #00ff3c);
+  background-image: linear-gradient(to bottom, #007000, #00ff3c);
+  text-decoration: none;
+}
+
+
+
+
+
+/*Table Customer*/
+#project_start{
+    width: 602px;
+    font: normal 14px arial, sans-serif;
+    border: 1px dotted black;
+    margin-left: 50px;
+}
+
+#project_start th{
+    height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    background: #4682b4;
+}
+
+#project_start td{
+    height: 20px;
+    border-top: 1px solid black;
+    text-align: center;
+    background: #CAE6CD;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+#project_start td.count{width:100px;}
+#project_start td.name{width:200px;}
+#project_start td.client{width:200px;}
+#project_start td.aktion{width:100px;}
+

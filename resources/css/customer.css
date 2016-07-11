@@ -1,0 +1,241 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26.04.2016, 17:16:58
+    Author     : U284265
+*/
+
+.coustomer_list{
+    
+}
+
+.coustomer_list table { 
+    border-collapse: collapse;
+    text-align: left; 
+    width: 100%; 
+} 
+
+.coustomer_list td.count{text-align: center;}
+.coustomer_list td.company{text-align: left;}
+.coustomer_list td.city{text-align: left;}
+.coustomer_list td.contact{text-align: left;}
+.coustomer_list td.country{text-align: center;}
+.coustomer_list td.status{text-align: center;}
+.coustomer_list td.calls{text-align: center;}
+.coustomer_list td.action{text-align: center;}
+
+
+.customer {
+    width: 500px;
+}
+.customer .data {
+    width: 300px;
+}
+.customer .label {
+    width: 200px;
+}
+
+
+
+/*Table Customer*/
+#outbound_customer{
+width:600px;
+font:normal 14px arial, sans-serif;
+border: 1px solid black;
+padding:3px;
+background:#d3d3d3;
+/*background:#f5deb3;*/
+}
+
+#outbound_customer th{
+height:20px;
+border: 1px solid black;
+text-align: center;
+background:#4682b4;
+}
+
+#outbound_customer td{
+height:20px;
+border: 1px solid black;
+text-align: left;
+background:#ffffff;
+/*background:#d3d3d3;*/
+}
+#outbound_customer .label_top{colspan:2;}
+#outbound_customer td.label{width:30%; padding:2px;}
+#outbound_customer td.data{width:70%; padding:2px;}
+
+/*Table Company*/
+#outbound_company{
+cellpadding:7;
+cellspacing:0;
+width:600px;
+font:normal 14px arial, sans-serif;
+border: 1px solid black;
+padding:3px;
+background:#d3d3d3;
+}
+
+#outbound_company th{
+height:20px;
+border: 1px solid black;
+text-align: center;
+background:#4682b4;
+}
+
+#outbound_company td{
+height:20px;
+border: 1px solid black;
+text-align: left;
+background:#ffffff;
+}
+#outbound_company th.label_top{}
+#outbound_company td.label{width:30%; padding:2px;}
+#outbound_company td.data{width:70%; padding:2px;}
+
+
+#div_inser_info {
+    border: solid #006699 1px;
+    width: 500px;
+    padding-top: 6px;
+    background: #EDEDED;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(to bottom, #238EEB 0%,#0A2D4F 29%,#0A2D4F 100%);
+    background: linear-gradient(to bottom, #0A2D4F 0%,#238EEB 29%,#0A2D4F 100%);
+    background-color: #0A2D4F;
+}
+
+label.label_inser_info {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    left: 30%;
+    position: absolute;
+}
+
+label {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;   
+}
+
+textarea.input_inser_info {
+    width: 494px;
+    background-color: #EDFFFF;
+    margin-top: 6px;
+}
+
+select:focus, select:hover{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+}
+
+select {
+    width: 120px;
+    height: 30px;
+    background-color: azure;
+    top: -5px;
+    position: inherit;
+    border-radius: 6px;
+}
+
+
+
+
+/* Spezial Munü */
+
+.spl_menu {
+    position: relative;
+    top: -14px;
+    min-width: 825px;
+}
+
+/* Contend Menü Inhalt Stylen */
+.spl_menu ul{
+    list-style-type: none;  
+}
+.spl_menu li{
+    position: relative;
+    float: left;
+    /*padding-bottom: 10px;
+    padding-left: 10px;*/
+}
+
+.spl_menu li.text {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.spl_menu li.link {
+    margin-top: 5px;
+}
+
+.spl_menu li a, .spl_menu li a:visited {
+	display: block;
+	text-decoration: none;
+	text-indent: -9999px;
+	height: 32px;
+	background-repeat: no-repeat;
+}
+
+.link_up {
+    margin-top: 7px;
+    background-image: url(../images/upa.png);
+    width: 32px;
+}
+.link_up a {
+    background-image: url(../images/up.png);
+}
+.link_down {
+    margin-top: 7px;
+    background-image: url(../images/downa.png);
+    width: 32px;
+}
+.link_down a {
+    background-image: url(../images/down.png);
+}
+
+.link_10 {
+    margin-top: 7px;
+    margin-left: 4px;
+    background-image: url(../images/10a.png);
+    width: 32px;
+}
+.link_10 a {
+    background-image: url(../images/10.png);
+}
+.link_50 {
+    margin-top: 7px;
+    margin-left: 4px;
+    background-image: url(../images/50a.png);
+    width: 32px;
+}
+.link_50 a {
+    background-image: url(../images/50.png);
+}
+.link_100 {
+    margin-top: 7px;
+    margin-left: 4px;
+    background-image: url(../images/100a.png);
+    width: 32px;
+}
+.link_100 a {
+    background-image: url(../images/100.png);
+}
+.link_all {
+    margin-top: 7px;
+    margin-left: 4px;
+    background-image: url(../images/alla.png);
+    width: 32px;
+}
+.link_all a {
+    background-image: url(../images/all.png);
+}
+
+
+.spl_menu ul li a:hover {background: none;}
