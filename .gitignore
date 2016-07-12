@@ -19,7 +19,12 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+*.xlsx
+*.csv
 
+#BACKUP
+/BACKUP
+/nbproject
 
 ### CodeIgniter ###
 */config/development
