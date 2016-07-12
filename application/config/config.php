@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //$config['base_url'] = 'http://184.2.1.215/cfc_outbound';
-$config['base_url'] = 'http://localhost/cfc_outbound';
+$config['base_url'] = 'http://localhost/projects/cfc_outbound';
 
 /*
 |--------------------------------------------------------------------------
