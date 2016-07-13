@@ -3,7 +3,7 @@
 class Dashboard extends MX_Controller
 {
 
-    function __construct() 
+    function __construct()
     {
         parent::__construct();
         //$this->load->module('site_security');
@@ -19,12 +19,15 @@ class Dashboard extends MX_Controller
         }
 
         $data['session_id'] = session_id();
-        
+
         $data['headline'] = "Dashboard";
         $template = "main";
         $data['view_file'] = "home";
+
+        //Twig Stuff - echo $this->twig->render('dashboard.html.twig', $data);
+
         $this->load->module('template');
         $this->template->$template($data);
     }
-    
+
 }

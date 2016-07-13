@@ -6,7 +6,7 @@ class Account extends MX_Controller
     function __construct()
     {
         parent::__construct();
-        
+
     }
 
     function get_last_action()
@@ -45,19 +45,6 @@ class Account extends MX_Controller
 
     function login()
     {
-        //$loader = new Twig_Loader_Filesystem('resources/views');
-        //$twig = new Twig_Environment($loader);
-        
-        
-        
-        /*$site_name = new Twig_SimpleFunction('site_name', function()
-        {
-            return module_run('Site_settings/get_site_name');
-        });
-       
-        $twig->addFunction($site_name);*/
-
-        //check if user is allready logd in redireckt to dashboard
         if(Modules::run('site_security/check_account') == TRUE)
         {
             redirect('dashboard');
@@ -95,20 +82,14 @@ class Account extends MX_Controller
             $data['flash'] = $flash;
         }
 
+        /*
+        Twig Stuff
         $data['error'] = validation_errors('<p style="color: red;">Error', '</p>');
-        //$this->load->view('login', $data);
 
-        //echo image_path('flag');
-        
-        //$twig = new Twig();
-        //$twig->add_function(image_path());
         $this->twig->add_function(image_path());
         echo $this->twig->render('login.html.twig', $data);
-    }
-
-    function module_run($module, $param = array())
-    {
-        echo modules::run($module, $param);
+        */
+        $this->load->view('login', $data);
     }
 
     function password_check($password, $username)
@@ -122,6 +103,7 @@ class Account extends MX_Controller
             //Past the password hash into Hash variable
             $password_hash = $row->password;
         }
+
         //Check if the hash and the password past together
         if (password_verify($password, $password_hash))
         {

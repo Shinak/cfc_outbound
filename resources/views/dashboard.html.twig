@@ -1,0 +1,36 @@
+{% extends "base.html.twig" %}
+{% block title %}{{ title }}{% endblock %}
+
+{% block body %}
+<div id="contend_top"><!-- Contend  Top -->
+    <div class="main"><!-- Main Top contend -->
+      <div class='headline'><h1>{{ headline }}</h1></div>
+    </div><!-- Close Main contend-->
+</div><!-- Close Contend Top -->
+
+<div id="contend_main"><!--  Contend main-->
+
+    <div class="left"><!-- Left contend-->
+            Inhalt Links
+
+          {#  $login = $this->session->userdata('logged_in');#}
+            <br>Account ID {#= '.$login['id'];#}
+
+            <br>Account Right = {#.$login['right'];#}
+            <br>{#'.$session_id;#}
+          {#
+            echo $_SESSION['last_action'];
+
+            echo time();
+            ?>#}
+    </div><!-- Close Left contend-->
+
+
+    <div class="main"> <!-- Main contend-->
+        {{flash}}
+
+      {#  <?php echo Modules::run('project/get_project_list', 'start');?>#}
+    </div><!-- Close Main contend-->
+
+</div><!-- Close contend main-->
+{% endblock %}

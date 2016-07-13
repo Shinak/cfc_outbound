@@ -16,7 +16,8 @@ class Twig
 		$this->CI->config->load('webcore');
 		$this->_template_path = $this->CI->config->item('template_path');
 		$this->_cache_path = $this->CI->config->item('cache_path');
-                $this->_css_path = $this->CI->config->item('css_path');
+    $this->_css_path = $this->CI->config->item('css_path');
+		$this->_js_path = $this->CI->config->item('js_path');
 		$loader = new Twig_Loader_Filesystem($this->_template_path);
 		$this->_twig = new Twig_Environment($loader, array(
 			'cache' => $this->_cache_path,
@@ -32,7 +33,7 @@ class Twig
 		// add session on twig template
 		$this->_twig->addGlobal("session", $this->CI->session);
                 $this->_twig->addGlobal('css_path', $this->_css_path);
-                
+
 	}
 	public function add_function($name)
 	{
